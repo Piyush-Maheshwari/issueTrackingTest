@@ -10,11 +10,11 @@ router.get('/', (req, res, next) => {
 });
 
 /* Post a user . */
-// router.post('/', (req, res, next) => {
-//   res.json({
-//     status: 200,
-//     message: 'User successfully created '
-//   });
-// });
+router.post('/', (req, res, next) => {
+  res.json({
+    status: 200,
+    message: 'User successfully created '
+  });
+});
 
 module.exports = router;
